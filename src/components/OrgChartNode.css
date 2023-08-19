@@ -1,0 +1,21 @@
+.org-chart-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .employee-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .subordinates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

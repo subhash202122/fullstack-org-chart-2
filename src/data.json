@@ -1,0 +1,201 @@
+{
+    "fullname": "Alice Anderson",
+    "designation": "Founder",
+    "email": "alice.anderson@example.com",
+    "manager": "",
+    "subordinates": [
+      {
+        "fullname": "David HR",
+        "designation": "CHRO",
+        "email": "david.hr@example.com",
+        "manager": "Alice Anderson",
+        "subordinates": []
+      },
+      {
+        "fullname": "Eric CFO",
+        "designation": "CFO",
+        "email": "eric.cfo@example.com",
+        "manager": "Alice Anderson",
+        "subordinates": []
+      },
+      {
+        "fullname": "Frank Sales Mgr",
+        "designation": "Sales Manager",
+        "email": "frank.sales@example.com",
+        "manager": "Alice Anderson",
+        "subordinates": [
+          {
+            "fullname": "Jack Sales TL",
+            "designation": "Sales Team Leader",
+            "email": "jack.sales@example.com",
+            "manager": "Frank Sales Mgr",
+            "subordinates": [
+              {
+                "fullname": "Rachel Sales Rep",
+                "designation": "Sales Representative",
+                "email": "rachel.sales@example.com",
+                "manager": "Jack Sales TL",
+                "subordinates": []
+              },
+              {
+                "fullname": "Sam Sales Rep",
+                "designation": "Sales Representative",
+                "email": "sam.sales@example.com",
+                "manager": "Jack Sales TL",
+                "subordinates": []
+              }
+            ]
+          },
+          {
+            "fullname": "Kelly Sales TL",
+            "designation": "Sales Team Leader",
+            "email": "kelly.sales@example.com",
+            "manager": "Frank Sales Mgr",
+            "subordinates": [
+              {
+                "fullname": "Tina Sales Rep",
+                "designation": "Sales Representative",
+                "email": "tina.sales@example.com",
+                "manager": "Kelly Sales TL",
+                "subordinates": []
+              },
+              {
+                "fullname": "Victor Sales Rep",
+                "designation": "Sales Representative",
+                "email": "victor.sales@example.com",
+                "manager": "Kelly Sales TL",
+                "subordinates": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fullname": "Grace Marketing Mgr",
+        "designation": "Marketing Manager",
+        "email": "grace.marketing@example.com",
+        "manager": "Alice Anderson",
+        "subordinates": [
+          {
+            "fullname": "Leo Mktg TL",
+            "designation": "Marketing Team Leader",
+            "email": "leo.marketing@example.com",
+            "manager": "Grace Marketing Mgr",
+            "subordinates": [
+              {
+                "fullname": "Wendy Mktg Rep",
+                "designation": "Marketer",
+                "email": "wendy.marketing@example.com",
+                "manager": "Leo Mktg TL",
+                "subordinates": []
+              },
+              {
+                "fullname": "Xavier Mktg Rep",
+                "designation": "Marketer",
+                "email": "xavier.marketing@example.com",
+                "manager": "Leo Mktg TL",
+                "subordinates": []
+              }
+            ]
+          },
+          {
+            "fullname": "Maria Mktg TL",
+            "designation": "Marketing Team Leader",
+            "email": "maria.marketing@example.com",
+            "manager": "Grace Marketing Mgr",
+            "subordinates": []
+          }
+        ]
+      },
+      {
+        "fullname": "Henry Ops Mgr",
+        "designation": "Operations Manager",
+        "email": "henry.ops@example.com",
+        "manager": "Alice Anderson",
+        "subordinates": [
+          {
+            "fullname": "Nathan Ops TL",
+            "designation": "Operations Team Leader",
+            "email": "nathan.ops@example.com",
+            "manager": "Henry Ops Mgr",
+            "subordinates": [
+              {
+                "fullname": "Yara Ops Staff",
+                "designation": "Operations Staff",
+                "email": "yara.ops@example.com",
+                "manager": "Nathan Ops TL",
+                "subordinates": []
+              },
+              {
+                "fullname": "Zach Ops Staff",
+                "designation": "Operations Staff",
+                "email": "zach.ops@example.com",
+                "manager": "Nathan Ops TL",
+                "subordinates": []
+              }
+            ]
+          },
+          {
+            "fullname": "Olivia Ops TL",
+            "designation": "Operations Team Leader",
+            "email": "olivia.ops@example.com",
+            "manager": "Henry Ops Mgr",
+            "subordinates": []
+          }
+        ]
+      },
+      {
+        "fullname": "Irene Tech Mgr",
+        "designation": "Technology Manager",
+        "email": "irene.tech@example.com",
+        "manager": "Alice Anderson",
+        "subordinates": [
+          {
+            "fullname": "Paul Tech TL",
+            "designation": "Technology Team Leader",
+            "email": "paul.tech@example.com",
+            "manager": "Irene Tech Mgr",
+            "subordinates": [
+              {
+                "fullname": "Alex Tech Staff",
+                "designation": "Technology Staff",
+                "email": "alex.tech@example.com",
+                "manager": "Paul Tech TL",
+                "subordinates": []
+              },
+              {
+                "fullname": "Bella Tech Staff",
+                "designation": "Technology Staff",
+                "email": "bella.tech@example.com",
+                "manager": "Paul Tech TL",
+                "subordinates": []
+              }
+            ]
+          },
+          {
+            "fullname": "Quinn Tech TL",
+            "designation": "Technology Team Leader",
+            "email": "quinn.tech@example.com",
+            "manager": "Irene Tech Mgr",
+            "subordinates": [
+              {
+                "fullname": "Chris Tech Staff",
+                "designation": "Technology Staff",
+                "email": "chris.tech@example.com",
+                "manager": "Quinn Tech TL",
+                "subordinates": []
+              },
+              {
+                "fullname": "Dana Tech Staff",
+                "designation": "Technology Staff",
+                "email": "dana.tech@example.com",
+                "manager": "Quinn Tech TL",
+                "subordinates": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
